@@ -20,13 +20,13 @@ const { value: countPlayer } = useField<number>('countPlayer', yup.number().requ
   initialValue: 5,
 })
 const { value: amountSilver } = useField<number>('amountSilver', yup.number().required('Required').typeError('Give a valid Number'), {
-  initialValue: 500000,
+  initialValue: 0,
 })
 const { value: amountEquipment } = useField<number>('amountEquipment', yup.number().required('Required').typeError('Give a valid Number'), {
-  initialValue: 1000000,
+  initialValue: 0,
 })
 const { value: amountRepair } = useField<number>('amountRepair', yup.number().required('Required').typeError('Give a valid Number'), {
-  initialValue: 100000,
+  initialValue: 0,
 })
 const { value: amountMap } = useField<number>('amountMap', yup.number().required('Required').typeError('Give a valid Number'), {
   initialValue: 0,

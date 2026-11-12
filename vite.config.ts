@@ -7,6 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/albion_online_management_balance/',
   plugins: [
     vue(),
     vueDevTools(),
